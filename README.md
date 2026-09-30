@@ -2,15 +2,7 @@
 
 **FamilyinWishlist** is a lightweight userscript for Steam that automatically highlights games on your wishlist that are already owned by a member of your Steam Family. Stop accidentally buying games you already have access to!
 
-## ✨ Features
-
-- **Visual Highlighting:** Adds a clean, subtle green highlight and border to wishlist items available via your Steam Family.
-- **Helpful Tooltips:** Hovering over a highlighted game displays a tooltip confirming it's in your Family Library.
-- **Smart Caching:** Uses session storage (10-minute cache) for API requests to ensure instant loading on page refreshes and prevents spamming Steam's servers.
-- **Highly Optimized:** Utilizes `MutationObserver` and `requestAnimationFrame` to smoothly handle Steam's dynamic, infinite-scrolling wishlist without lagging your browser.
-- **Privacy First:** Runs entirely locally in your browser. It uses your active Steam web session to fetch data directly from Steam's official APIs. No login credentials are required or shared.
-
-## 📦 Installation
+## Installation
 
 1. **Install a Userscript Manager:**
    First, install a userscript manager extension for your browser:
